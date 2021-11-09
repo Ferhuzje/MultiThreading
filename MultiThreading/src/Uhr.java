@@ -13,7 +13,7 @@ public class Uhr extends JFrame implements Runnable {
         setLayout(null);
 
         ausgabe = new JLabel("Ausgabe");
-        ausgabe.setBOunds(20, 20, 300, 25);
+        ausgabe.setBounds(20, 20, 300, 25);
         add(ausgabe);
 
         setVisible(true);
