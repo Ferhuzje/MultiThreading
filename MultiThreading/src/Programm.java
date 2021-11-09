@@ -13,6 +13,15 @@ public class Programm {
         t2.setName("t2");
         t2.start();
 
+        //new Thread ( new Uhr) ...
+        ThreadVariante2 t3 = new ThreadVariante2();
+        t3.setName("t3");
+        t3.start();
+
+        //t3.interrupt()
+
+        new Thread( new Uhr() ).start();
+
         System.out.println("Main-Ende");
 
     }
